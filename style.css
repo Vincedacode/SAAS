@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
+ html{
+    scroll-behavior: smooth;
+   
+ }
+ a,
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p,
+ button,
+ span,
+ input{
+    font-family: "Boldonse", system-ui !important;
+    font-weight: 400 !important;
+    font-style: normal !important; 
+ }
+ /* Background for Navbar and Hero */
+  .hero-section {
+    background: linear-gradient(135deg, #6b1ebf, #3f0d79);
+  
+}
+.navbar .navbar-nav {
+    flex-grow: 1;
+    justify-content: center;
+}
+.btn-login {
+    background-color: white;
+    color: #6b1ebf;
+    border-radius: 20px;
+    padding: 8px 20px;
+}
+.btn-readmore{
+    border-color: white;
+  
+}
+a{
+    text-decoration: none;
+}
+.btn-readmore:hover{
+    border-color: white;
+  
+}
+.sub-email{
+    padding: 10px;
+    background-color: transparent;
+    border: 5px red;
+}
+/* .hero-img{
+    margin-top: -20px !important;
+} */
+
+#p-image{
+    height: 45px;
+    width: 45px;
+    border-radius: 50px;
+}
+.brands{
+    justify-content: space-between;
+}
+.btn-features{
+    border-color: purple;
+}
+.btn-features a{
+    color: purple;
+}
+.btn-features:hover{
+    background-color: purple;
+    border-color: purple;
+}
+.btn-features:hover a{
+    color: white;
+}
+.collab-img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+   
+}
+.btn-getstarted{
+    background-color: purple;
+}
+.btn-getstarted a{
+  font-size: 12px;
+}
+.btn-getstarted:hover{
+    background-color: purple;
+}
+.btn-learnmore{
+    border-color: black;
+}
+.btn-learnmore a{
+    font-size: 12px;
+  }
+.btn-learnmore:hover{
+    border-color: black;
+
+}
+.check-img{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: purple;
+}
+.learn-more{
+    border: 1px solid gray !important;
+}
+p{
+    font-size: 10px !important;
+}
+.plan:hover{
+    background-color: purple !important;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.plan:hover button{
+    background-color: white !important;
+    transition: 0.2s ease-in-out;
+}
+.plan:hover button a{
+    color: black !important;
+    transition: 0.2s ease-in-out;
+}
+.plan:hover .fa-check{
+    color: white !important;
+    transition: 0.2s ease-in-out;
+}
+.footer {
+    background-color: purple;
+    padding: 60px 0;
+  }
+
+  .footer h5 {
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  .footer ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .footer ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-bottom: 10px;
+    transition: color 0.3s;
+  }
+
+  .footer ul li a:hover {
+    color: #ccc;
+  }
+
+  .newsletter input {
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    width: 100%;
+  }
+
+  .newsletter button {
+    margin-top: 10px;
+    border-radius: 20px;
+  }
+
+  .footer-bottom {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 14px;
+  }

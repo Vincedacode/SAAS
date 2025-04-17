@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vincedacode</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/729d702643.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/@studio-freight/lenis"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <!-- Hero Section with Navbar -->
+    <div class="hero-section">
+        <div class="container">
+            <nav class="navbar navbar-dark navbar-expand-lg">
+                <a class="navbar-brand text-white" href="#">Vincedacode</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link text-white" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#">Features</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#">Pricing</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link text-white" href="#">Contact</a></li>
+                    </ul>
+                    <!-- Login Button (Visible on all screens) -->
+                    <a href="#" class="btn btn-login ms-lg-3">Log in</a>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Hero Content -->
+    <div class="text-center text-white hero-section mb-5 py-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 d-flex flex-column align-items-center text-center gap-3 herodiv1">
+                    <button class="btn btn-readmore text-muted">
+                        <a class="text-muted" href="#">Version 2.0 is here <span class="text-white">Read More</span></a>
+                    </button>
+                    <h2>Simplify Your Work, <br> Amplify Your Impact</h2>
+                    <p>Revolutionize the way you work with an all-in-one SaaS platform. Boost <br>
+                        productivity and scale your business effortlessly with cutting-edge <br>
+                        tools designed for your success.
+                    </p>
+                
+                    <!-- Form Section -->
+                    <div class="d-flex flex-column flex-lg-row align-items-center gap-2 sub-email">
+                        <form class="d-flex" action="">
+                        <input type="email" class="form-control email-input" placeholder="Your Email Address">
+                        <button type="submit" class="btn btn-primary bg-white text-dark ms-2">Subscribe</button>
+                    </form>
+                    </div>
+
+                    <!-- <div class="d-flex img-div">
+                        <img id="p-image" src="/public/assets/images/pic.jpeg" alt="">
+                        <img id="p-image" src="/public/assets/images/pic.jpeg" alt="">
+                        <img id="p-image" src="/public/assets/images/pic.jpeg" alt="">
+                    </div> -->
+                </div>
+                
+                    <div class="col-lg-6 col-md-6 col-sm-6 2herodiv2">
+                       <img class="hero-img img-fluid mb-5" src="/public/assets/images/hero.png" alt="">
+                    </div>
+                </div>
+                <div class="container text-decoration-none brands px-5">
+                    <div class="row justify-content-center text-center">
+                        <div class="col-6 col-lg-2 col-md-4">
+                            <h4><a class="text-white" href="https://www.google.com/">Google</a></h4>
+                        </div>
+                        <div class="col-6 col-lg-2 col-md-4">
+                            <h4><a class="text-white" href="https://www.microsoft.com/en-ng/">Microsoft</a></h4>
+                        </div>
+                        <div class="col-6 col-lg-2 col-md-4">
+                            <h4><a class="text-white" href="https://www.amazon.com/">Amazon</a></h4>
+                        </div>
+                        <div class="col-6 col-lg-2 col-md-4">
+                            <h4><a class="text-white" href="https://www.shopify.com/">Shopify</a></h4>
+                        </div>
+                        <div class="col-6 col-lg-2 col-md-4">
+                            <h4><a class="text-white" href="https://slack.com/">Slack</a></h4>
+                        </div>
+                        <div class="col-6 col-lg-2 col-md-4">
+                            <h4><a class="text-white" href="https://www.tesla.com/">Tesla</a></h4>
+                        </div>
+                    </div>
+                </div>
+                
+           
+        </div>
+    </div>
+
+    <!-- Website Content 1 -->
+     <div class="mt-5 web-content">
+        <div class="container">
+            <h1 class="text-center">Why Choose Our SaaS Platform</h1>
+            <p style="font-size: 12px;" class="text-center mt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit quibusdam iste quam aliquam similique eos natus.</p>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 bg-light">
+                    <img class="h-100 img-fluid" src="/public/assets/images/sales.png" alt="">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <button class="btn btn-features mt-3">
+                        <a class="" href="#">Our Features</a>
+                    </button>
+                    <h3 class="fw-light h5 mt-3">Empower Your Business With Game-Changing Features </h3>
+                    <!-- Collaboration -->
+
+                    <div class="d-flex mt-4">
+                        <img class="collab-img bg-light p-2" src="/public/assets/images/collab.png" alt="">
+                        <p style="font-size: 15px;" class="ms-2">Real-Time Collaboration</p>
+                    </div>
+                    <p  class="text-muted ms-5">Many desktop publishing packages and web pages editors now use them to make Data-driven decisions</p>
+                    <!-- Security -->
+
+                    <div class="d-flex mt-4">
+                        <img class="collab-img bg-light p-2" src="/public/assets/images/security.png" alt="">
+                        <p style="font-size: 15px;" class="ms-2">Advanced Security</p>
+                    </div>
+                    <p  class="text-muted ms-5">Many desktop publishing packages and web pages editors now use them to make Data-driven decisions</p>
+                    <!-- Dashboards -->
+
+                    <div class="d-flex mt-4">
+                        <img class="collab-img bg-light p-2" src="/public/assets/images/dashboard.png" alt="">
+                        <p style="font-size: 15px;" class="ms-2">Customizable Dashboards</p>
+                    </div>
+                    <p  class="text-muted ms-5">Many desktop publishing packages and web pages editors now use them to make Data-driven decisions</p>
+                </div>
+                
+            </div>
+        </div>
+     </div>
+
+     <!-- Website Content 2 -->
+      <div class="mt-5 webcontent2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <button class="btn btn-features mt-3">
+                        <a class="" href="#">How It Works</a>
+                    </button>
+
+                    <h4 class="mt-3" style="font-size: 15px;">Get Started in Just a Few Steps</h4>
+
+                    <!-- Accordion -->
+                    <div class="accordion mt-3" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Sign Up and Get Started
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="collapse accordion-collapse show" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Create your account in minutes and get the tools to streamline your workflow.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="collapsed accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Set Up Your Workspace
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="collapse accordion-collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Customize your workspace to match your needs and improve efficiency.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="collapsed accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Collaborate and Automate
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="collapse accordion-collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Work seamlessly with your team and automate repetitive tasks.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="collapsed accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    Track Progress and Optimize
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="collapse accordion-collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Monitor your progress and optimize workflows for better performance.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex gap-4 mb-3 mt-3">
+                        <button class="btn btn-getstarted"><a class="text-white" href="">Get Started</a></button>
+                        <button class="btn btn-learnmore"><a class="text-dark" href="">Learn More</a></button>
+                    </div>
+                    
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                   <img class="rounded img-fluid mt-lg-4 h-100" src="/public/assets/images/people.jpg" alt="">
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <!-- Website Content 3 -->
+       <!-- Website Content 4 -->
+       <div class="mt-5 webcontent3 mb-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <img id="hero-img" class="rounded w-100 img-fluid" src="/public/assets/images/people2.avif" alt="">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <h4 id="headline" class="mt-3" style="font-size: 15px;">Stay Ahead with Continuous Updates</h4>
+                    <p id="description" class="mt-4">Our platform evolves with your business needs. We release regular updates that include:</p>
+    
+                    <!-- Features List -->
+                    <div class="row mt-4">
+                        <div class="col-6 d-flex align-items-start feature" data-index="0">
+                            <img class="check-img me-2" src="/public/assets/images/check.png" alt="">
+                            <div>
+                                <h5 style="font-size: 15px;">New Features</h5>
+                                <p class="text-muted" style="font-size: 13px;">Stay up to date with the latest features.</p>
+                            </div>
+                        </div>
+                        <div class="col-6 d-flex align-items-start feature" data-index="1">
+                            <img class="check-img me-2" src="/public/assets/images/check.png" alt="">
+                            <div>
+                                <h5 style="font-size: 15px;">Security Enhancement</h5>
+                                <p class="text-muted" style="font-size: 13px;">Enhanced security for your data.</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="row mt-4">
+                        <div class="col-6 d-flex align-items-start feature" data-index="2">
+                            <img class="check-img me-2" src="/public/assets/images/check.png" alt="">
+                            <div>
+                                <h5 style="font-size: 15px;">Improved Integrations</h5>
+                                <p class="text-muted" style="font-size: 13px;">Seamless integration with other tools.</p>
+                            </div>
+                        </div>
+                        <div class="col-6 d-flex align-items-start feature" data-index="3">
+                            <img class="check-img me-2" src="/public/assets/images/check.png" alt="">
+                            <div>
+                                <h5 style="font-size: 15px;">High Performance</h5>
+                                <p class="text-muted" style="font-size: 13px;">Optimized for faster performance.</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Buttons -->
+                    <div class="d-flex gap-4 mb-3 mt-3">
+                        <a id="btn-start" class="btn btn-getstarted text-white" href="">Get Started</a>
+                        <a id="btn-learn" class="btn btn-learnmore text-dark" href="">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+        <!-- Website Content 4 -->
+         <div style="background-color: purple;" class="mb-5 webcontent5">
+            <div  class="container d-flex justify-content-between text-white py-5">
+                <h1>50+
+                    <p class="mt-2">In 48 countries, we work <br> global team to help clients</p>
+                </h1>
+                <h1>2M
+                    <p class="mt-2" >Active Users in the  world</p>
+                </h1>
+                <h1>85%
+                    <p class="mt-2" >We started with a positive mindset and <br> set ourselves the challenge</p>
+                </h1>
+            </div>
+         </div>
+
+         <!-- Website Content 5 -->
+          <div class="webcontent6 mb-5">
+            <div class="container">
+                <h1 class="text-center">Choose Your Plan</h1>
+                <p style="font-size: 12px;" class="text-center mt-3">14 days unlimited trials. No contract or credit card needed.</p>
+                <div class="row gap-5 justify-content-center">
+                    <div class="col-lg-3 plan col-md-3 col-sm-12 bg-light p-3 rounded py-4">
+                        <h4 style="font-size: 15px;">Forever free</h4>
+                        <p class="mt-3">Forever free, even after the launch</p>
+                        <div class="d-flex mt-2">
+                            <h5 style="font-size: 13px;">$0</h5>
+                            <p style="margin-top: -5px;" class="ms-1">per seat <br> /month</p>
+                        </div>
+                        <button class="btn btn-getstarted text-center mt-2 w-100"><a class="text-white text-center" href="">Create a free account</a></button>
+                        <div class="d-flex mt-4">
+                            <i class="fa-solid fa-check"></i>
+                            <p class="ms-3">Text links available</p>
+                        </div>
+                        <div class="d-flex mt-2">
+                            <i class="fa-solid fa-check"></i>
+                            <p class="ms-3">Own analytics platform</p>
+                        </div>
+                        <div class="d-flex mt-2">
+                            <i class="fa-solid fa-check"></i>
+                            <p class="ms-3">Mobile apps</p>
+                        </div>
+                        <div class="d-flex mt-2">
+                            <i class="fa-solid fa-check"></i>
+                            <p class="ms-3">Chat Support</p>
+                        </div>
+                        <div class="d-flex mt-2">
+                            <i class="fa-solid fa-check"></i>
+                            <p class="ms-3">1000 users</p>
+                        </div>
+                        <div class="d-flex mt-2">
+                            <i class="fa-solid fa-check"></i>
+                            <p class="ms-3">Template Library</p>
+                        </div>
+                        <div class="see-features w-100 py-4 text-center">
+                            <button class="btn btn-getstarted text-center mt-3 "><a class="text-white text-center" href="">See all Features</a></button>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 plan col-md-3 col-sm-12 bg-light p-3 rounded py-4">
+                        <h4 style="font-size: 15px;">Enterprise</h4>
+                        <p class="mt-3">Forever free, even after the launch</p>
+                        <div class="d-flex mt-2">
+                            <h5 style="font-size: 13px;">$15</h5>
+                            <p style="margin-top: -5px;" class="ms-1">per seat <br> /month</p>
+                        </div>
+                        <button class="btn btn-getstarted text-center mt-2 w-100"><a class="text-white text-center" href="">Create a free account</a></button>
+                        <div class="d-flex mt-4">
+                            <i class="fa-solid fa-check"></i>
+                            <p class="ms-3">Text links available</p>
+                        </div>
+                        <div class="d-flex mt-2">
+                            <i class="fa-solid fa-check"></i>
+                            <p class="ms-3">Own analytics platform</p>
+                        </div>
+                        <div class="d-flex mt-2">
+                            <i class="fa-solid fa-check"></i>
+                            <p class="ms-3">Mobile apps</p>
+                        </div>
+                        <div class="d-flex mt-2">
+                            <i class="fa-solid fa-check"></i>
+                            <p class="ms-3">Chat Support</p>
+                        </div>
+                        <div class="d-flex mt-2">
+                            <i class="fa-solid fa-check"></i>
+                            <p class="ms-3">1000 users</p>
+                        </div>
+                        <div class="d-flex mt-2">
+                            <i class="fa-solid fa-check"></i>
+                            <p class="ms-3">Template Library</p>
+                        </div>
+                        <div class="see-features w-100 py-4 text-center">
+                            <button class="btn btn-getstarted text-center mt-3 "><a class="text-white text-center" href="">See all Features</a></button>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 plan col-md-3 col-sm-12 bg-light p-3 rounded py-4">
+                        <h4 style="font-size: 15px;">Business Pack</h4>
+                        <p class="mt-3">Forever free, even after the launch</p>
+                        <div class="d-flex mt-2">
+                            <h5 style="font-size: 13px;">$9</h5>
+                            <p style="margin-top: -5px;" class="ms-1">per seat <br> /month</p>
+                        </div>
+                        <button class="btn btn-getstarted text-center mt-2 w-100"><a class="text-white text-center" href="">Create a free account</a></button>
+                        <div class="d-flex mt-4">
+                            <i class="fa-solid fa-check"></i>
+                            <p class="ms-3">Text links available</p>
+                        </div>
+                        <div class="d-flex mt-2">
+                            <i class="fa-solid fa-check"></i>
+                            <p class="ms-3">Own analytics platform</p>
+                        </div>
+                        <div class="d-flex mt-2">
+                            <i class="fa-solid fa-check"></i>
+                            <p class="ms-3">Mobile apps</p>
+                        </div>
+                        <div class="d-flex mt-2">
+                            <i class="fa-solid fa-check"></i>
+                            <p class="ms-3">Chat Support</p>
+                        </div>
+                        <div class="d-flex mt-2">
+                            <i class="fa-solid fa-check"></i>
+                            <p class="ms-3">1000 users</p>
+                        </div>
+                        <div class="d-flex mt-2">
+                            <i class="fa-solid fa-check"></i>
+                            <p class="ms-3">Template Library</p>
+                        </div>
+                        <div class="see-features w-100 py-4 text-center">
+                            <button class="btn btn-getstarted text-center mt-3 "><a class="text-white text-center" href="">See all Features</a></button>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+          </div>
+
+          <!-- Footer -->
+          <footer class="footer text-white">
+            <div class="container">
+              <div class="row gy-4">
+                <div class="col-md-3">
+                  <h5 class="animate">Company</h5>
+                  <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Team</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Blog</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-3">
+                  <h5 class="animate">Support</h5>
+                  <ul>
+                    <li><a href="#">Getting Started</a></li>
+                    <li><a href="#">Help Center</a></li>
+                    <li><a href="#">Tutorials</a></li>
+                    <li><a href="#">Report a Bug</a></li>
+                    <li><a href="#">Support</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-3">
+                  <h5 class="animate">Products</h5>
+                  <ul>
+                    <li><a href="#">Mobile</a></li>
+                    <li><a href="#">Desktop</a></li>
+                  </ul>
+                  <h5 class="animate mt-4">Downloads</h5>
+                  <ul>
+                    <li><a href="#">iOS</a></li>
+                    <li><a href="#">Android</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-3">
+                  <h5 class="animate">Subscribe to our newsletter</h5>
+                  <p class="animate">Stay up to date with the latest updates, exclusive content, and insider insights delivered right to your inbox.</p>
+                  <div class="newsletter">
+                    <input type="email" placeholder="Enter your email" class="form-control animate" />
+                    <button class="btn btn-light mt-2 animate">Subscribe</button>
+                  </div>
+                </div>
+              </div>
+              <div class="footer-bottom mt-4 animate">
+                &copy; 2025 Helios. All Rights Reserved.
+              </div>
+            </div>
+          </footer>
+           
+
+
+
+<script src="/script.js"></script>
+
+</body>
+</html>
